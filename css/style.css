@@ -31,6 +31,29 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 80px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .homepage-images {
+    display: none;
+  }
+.homepage-row {
+    display: flex;
+   justify-content: center;
+   
+}
+.homepage-paragraphs {
+  text-align: center;
+}
+.paragraph-link {
+    display: block;
+    text-align: center;
+}
+}
 .container {
   width: 100%;
 }
